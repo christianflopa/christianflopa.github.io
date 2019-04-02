@@ -1,2 +1,2 @@
 # christianflopa.github.io
-Dios
+<h2>Christian Flores Parra y Cristian Escobar Pérez<h2>
