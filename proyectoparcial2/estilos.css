@@ -1,0 +1,33 @@
+.letra{ 
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 4px;
+ }
+
+ .menurojo:hover{ 
+color: red !important; 
+background-color: white !important;
+  }
+
+  .nohover:hover{ 
+ 
+background-color: white !important;
+   }
+.nopadding{ 
+padding: 0px;
+
+ }
+
+ .imglg{ 
+height: 800px !important;
+  }
+
+  .hovernegro:hover{
+  	color: black !important;
+  }
+
+  .noline{
+  text-decoration: none !important; 
+   }
+

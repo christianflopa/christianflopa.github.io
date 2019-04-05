@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" charset=UF-8>
-	<title></title>
+	<title>Ch&C Style</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
 	<script src="js/jquery.js"></script>
 </head>
 <body>
@@ -11,8 +12,8 @@
  
    <!--INICIA CÓDIGO DE LA BARRA DE NAVEGACIÓN-->
    <nav class="navbar navbar-default navbar-fixed-top">
-     <div style="background-color: black;">
-    <p style="text-align: center; color: white;"><img src="imagenes1/flama.png"> BIENVENIDOS A CH&C STYLE <img src="imagenes1/flama.png"></p>
+     <div style="background-color: black; height: 25px; padding: 3px">
+    <p class="letra text-center" style="color: white;" ><img src="imagenes1/flama.png"><b> BIENVENIDOS A CH&C STYLE </b>  <img src="imagenes1/flama.png"></p>
   </div>
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -23,23 +24,23 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html" style="font-size: 30px; margin-left: 100px">Ch&C Style</a>
+      <a class="navbar-brand nohover" href="index.html" style="font-size: 30px; margin-left: 90px">Ch&C Style</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active" style="margin-left: 150px"><a href="#">BRACELETS <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">NECKLACES</a></li>
-        <li><a href="#">SHOP ALL</a></li>
+      <ul class="nav navbar-nav nohover">
+        <li style="margin-left: 140px"><a href="#" class="menurojo letra"><p>BRACELETS</p> <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" class="menurojo letra"><p>NECKLACES</p></a></li>
+        <li><a href="#" class="menurojo letra"><p>SHOP ALL</p></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">YOUTUBERS <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle letra menurojo" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> YOUTUBERS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">ShiferWhat</a></li>
-            <li><a href="#">Jose Zuniga</a></li>
-            <li><a href="#">Who! Parkour</a></li>
+            <li><a href="#"class="menurojo">ShiferWhat</a></li>
+            <li><a href="#"class="menurojo">Jose Zuniga</a></li>
+            <li><a href="#"class="menurojo">Who! Parkour</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Solicitud de patrocinio</a></li>
+            <li><a href="#"class="menurojo">Solicitud de patrocinio</a></li>
             
           </ul>
         </li>
@@ -52,10 +53,10 @@
       </form>
       <ul class="nav navbar-nav navbar-right">
         
-        <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
-
+        <li><a href="#" class="nohover"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+        <li><a href="#" class="menurojo"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="imagenes1/MXN.png"> MXN <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle letra nohover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="imagenes1/MXN.png"> MXN <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">MEXICO</a></li>
             <li><a href="#">EUA</a></li>
@@ -74,46 +75,89 @@
 
 
     <!--ROW CON IMAGENES PRINCIPALES COL-XS-12  COL-MD-4-->
-<div class="row" style="width: 100%">
-  <div class="col-xs-12 col-md-4"> 
-    <img src="imagenes1/imagenprincipal1.jpg">
+<div class="row" style="width: 100%; margin: 0px; margin-top: 95px">
+  <div class="col-xs-12 col-md-4 col-lg-4 nopadding">
+    <div class="pull-left">
+      <img src="imagenes1/imagenprincipal4.jpg" class="img-responsive imglg">
+    </div> 
+       
   </div>
-  <div class="col-xs-12 col-md-4">
-    <img src="imagenes1/imagenprincipal2.jpg">
+  <div class="col-xs-12 col-md-4 col-lg-4 nopadding">
+      <div class="pull-center">
+      <img src="imagenes1/imagenprincipal5.jpg" class="img-responsive imglg">
+    </div> 
   </div>
-   <div class="col-xs-12 col-md-4">
-    <img src="imagenes1/imagenprincipal3.jpg">
+  <div class="col-xs-12 col-md-4 col-lg-4 nopadding">
+       <div class="pull-right">
+      <img src="imagenes1/imagenprincipal6.jpg" class="img-responsive imglg">
+    </div> 
   </div>
+  
 </div>
  
 <br>
 <br>
 <br>
 
+
+
 <!--Inicio del contenido de la página-->
-<div class="col-xs-12">
-  <div class="col-xs-6">
-    <h4 style="float: left; margin-left: 140px">BEST SELLERS</h4>
+
+ <div class="col-xs-12">
+  <div class="col-xs-6 col-md-6 col-lg-6" style="float: left;">
+    <h4 style="float: left; margin-left: 10%; font-size: 18px !important;" class="letra"> <b>BEST SELLERS</b> </h4>
   </div>
-  <div class="col-xs-6">
-    <h4><a href="" style="float: right; margin-right: 140px">SEE COLLECTION</a></h4>
+  <div class="col-xs-6 col-md-6 col-lg-6" style="float: right;">
+    <h4 style="float: right; margin-right: 10%;"><a href="" class="hovernegro noline letra" style="font-size: 16px !important"> <b>SEE COLLECTION</b> </a></h4>
   </div>
- 
-</div>
+ </div>
+
 
 <!--IMAGENES (PRODUCTOS BEST SELLERS)--> 
 
- <div class="row" style="width: 100%">
+ <div class="row" style="width: 100%;">
   <!--IMAGENEN 1-->
-   <div class="col-xs-12 col-md-6">
-     <div class="panel panel-primary">
+   <div class="col-xs-6 col-md-3 col-lg-3">
+     <div class="container-fluid" style="margin-left: 50px">
              <div class="panel-body">
-                <img src="imagenes1/pulsera1.jpg" class="img-responsive img-circle" alt="">
-                <h5>Lava Stone Bead Bracelet <br>$850.23 MXN</h5>
+                <a href="index.html"><img src="imagenes1/pulsera1.jpg" class="img-responsive" alt=""></a>
+                <h5 style="text-align: center; font-size: 20px">LAVA STONE BEAD BRACELET</h5>
+                <h5 style="text-align: center; font-size: 20px"><s>$1,133.64 MXN</s><p style="color: red">$850.23 MXN</p></h5>
              </div>
       </div>
-  
+   </div>
 
+   <!--IMAGENEN 1-->
+   <div class="col-xs-6 col-md-3 col-lg-3">
+     <div class="container-fluid" style="margin-left: 50px">
+             <div class="panel-body">
+                <a href="index.html"><img src="imagenes1/pulsera2.jpg" class="img-responsive" alt=""></a>
+                <h5 style="text-align: center; font-size: 20px">BLACK COLLECTION - SNOWFLAKE OBSIDIAN STONE BRACELET</h5>
+                <h5 style="text-align: center; font-size: 20px"><s>$1,441.07 MXN</s><p style="color: red">$1080.80 MXN</p></h5>
+             </div>
+      </div>
+   </div>
+
+   <!--IMAGENEN 1-->
+   <div class="col-xs-6 col-md-3 col-lg-3">
+     <div class="container-fluid" style="margin-left: 50px">
+             <div class="panel-body">
+                <a href="index.html"><img src="imagenes1/pulsera3.jpg" class="img-responsive" alt=""></a>
+                <h5 style="text-align: center; font-size: 20px">WOVEN ADJUSTABLE DOUBLE - SILVER & BLACK</h5>
+                <h5 style="text-align: center; font-size: 20px"><s>$1,210.88 MXN</s><p style="color: red">$706.13 MXN</p></h5>
+             </div>
+      </div>
+   </div>
+
+   <!--IMAGENEN 1-->
+   <div class="col-xs-6 col-md-3 col-lg-3">
+     <div class="container-fluid" style="margin-left: 50px">
+             <div class="panel-body">
+                <a href="index.html"><img src="imagenes1/collar1.jpg" class="img-responsive" alt=""></a>
+                <h5 style="text-align: center; font-size: 20px">ADJUSTABLE BLACK FEATHER NECKLACE - ROSEGOLD & BLACK</h5>
+                <h5 style="text-align: center; font-size: 20px"><s>$941.50 MXN</s><p style="color: red">$706.13 MXN</p></h5>
+             </div>
+      </div>
    </div>
  </div>
 <hr>
