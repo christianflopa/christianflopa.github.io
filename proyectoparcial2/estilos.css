@@ -43,3 +43,15 @@ padding-top: 15px!important;
 padding-bottom: 15px!important;
 background-color: rgba(0,0,0,0.73)!important;
  }
+
+ .footer_menu{ 
+ 	list-style: none;
+    margin: 0;
+  }
+
+  .columns{ 
+  	    float: left !important;
+    display: inline !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+   }
